@@ -75,7 +75,7 @@
             toolStrip1.Items.AddRange(new ToolStripItem[] { tbText, btnShow });
             toolStrip1.Location = new Point(3, 0);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(185, 25);
+            toolStrip1.Size = new Size(154, 25);
             toolStrip1.TabIndex = 0;
             // 
             // tbText
@@ -104,6 +104,7 @@
             Name = "Main";
             Text = "Font Explorer";
             WindowState = FormWindowState.Maximized;
+            Shown += Main_Shown;
             toolStripContainer1.ContentPanel.ResumeLayout(false);
             toolStripContainer1.TopToolStripPanel.ResumeLayout(false);
             toolStripContainer1.TopToolStripPanel.PerformLayout();

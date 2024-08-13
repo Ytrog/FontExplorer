@@ -51,5 +51,10 @@ namespace FontExplorer
 
 
         }
+
+        private void Main_Shown(object sender, EventArgs e)
+        {
+            tbText.Focus();
+        }
     }
 }
