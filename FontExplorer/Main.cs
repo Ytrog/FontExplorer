@@ -24,6 +24,7 @@ namespace FontExplorer
                 return;
             }
 
+            fontContainer.SuspendLayout();
             fontContainer.Controls.Clear();
 
             // get all the fonts
@@ -50,6 +51,8 @@ namespace FontExplorer
                     fontContainer.Controls.Add(label);
                 }
             }
+
+            fontContainer.ResumeLayout();
 
 
         }
