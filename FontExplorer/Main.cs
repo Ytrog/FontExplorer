@@ -32,7 +32,7 @@ namespace FontExplorer
             using (InstalledFontCollection installedFontCollection = new())
             {
                 var families = installedFontCollection.Families;
-                foreach (var family in families.Where(f => f.IsStyleAvailable(FontStyle.Bold)))
+                foreach (var family in families)
                 {
                     Label label = new()
                     {
