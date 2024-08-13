@@ -102,6 +102,7 @@
             Controls.Add(toolStripContainer1);
             Name = "Main";
             Text = "Font Explorer";
+            WindowState = FormWindowState.Maximized;
             toolStripContainer1.ContentPanel.ResumeLayout(false);
             toolStripContainer1.TopToolStripPanel.ResumeLayout(false);
             toolStripContainer1.TopToolStripPanel.PerformLayout();
