@@ -75,11 +75,12 @@
             toolStrip1.Items.AddRange(new ToolStripItem[] { tbText, btnShow });
             toolStrip1.Location = new Point(3, 0);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(154, 25);
+            toolStrip1.Size = new Size(185, 25);
             toolStrip1.TabIndex = 0;
             // 
             // tbText
             // 
+            tbText.MaxLength = 15;
             tbText.Name = "tbText";
             tbText.Size = new Size(100, 25);
             // 
