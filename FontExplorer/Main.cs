@@ -24,6 +24,8 @@ namespace FontExplorer
                 return;
             }
 
+            fontContainer.Controls.Clear();
+
             // get all the fonts
             Padding padding = new Padding(10);
             using (InstalledFontCollection installedFontCollection = new())
